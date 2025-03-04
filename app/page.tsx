@@ -79,7 +79,7 @@ export default function PermainanMemori() {
         <p className="text-lg">Pasangan ditemukan: {cocokan} dari {kartu.length / 2}</p>
       </div>
 
-      <div className="grid grid-cols-3 gap-4 md:grid-cols-4 lg:grid-cols-6 p-6 rounded-2xl bg-white/10 backdrop-blur-md shadow-xl">
+      <div className="grid grid-cols-3 gap-4  p-6 rounded-2xl bg-white/10 backdrop-blur-md shadow-xl">
         {kartu.map((k, indeks) => (
           <motion.div
             key={k.id}
